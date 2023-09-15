@@ -12,21 +12,11 @@ $titulo= "Cadenas"?>
     <?php 
 
     $nombre=$_GET['nombre'] ?? "Adrian";
-    $longiud;
-    $mayusculas;
-    $minusculas;
     $prefijo=$_GET['prefijo']?? null;
     $letraA = "a";
-    $contiene;
-    $primeraA;
-    $nombre0;
     $letrao=["o","O"];
     $url = "http://username:password@hostname:9090/path?arg=value";
-    $http;
-    $username;
-    $path;
-    $query;
-    
+   
 
     $nombre = trim($nombre);
     $longitud = strlen($nombre);
