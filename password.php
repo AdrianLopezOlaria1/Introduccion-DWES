@@ -11,7 +11,7 @@
     function rand_Pass($upper = 1, $lower = 5, $numeric = 3, $other = 2){
     $password="";
     for ($i=0; $i < $upper; $i++) { 
-        $mayuscula = chr(rand(65,89));
+        $mayuscula = chr(rand(65,90));
         $password = $password.$mayuscula;
 
     }
