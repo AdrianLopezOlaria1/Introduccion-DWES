@@ -17,7 +17,7 @@
     if(isset($producto)&& isset($productos[$producto])){
         print $productos[$producto];
     }else{
-        http_response_code(404); // Establece el código de respuesta HTTP a 404 (No encontrado)
+        http_response_code(404); 
     echo "Producto no encontrado";
     }
 
