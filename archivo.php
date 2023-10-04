@@ -17,6 +17,4 @@ if($letMeIn == 1){
     imagepng(imagecreatefrompng('/home/alumno/Documentos/img/imagen.png'));
     
 }
-
-
 ?>
