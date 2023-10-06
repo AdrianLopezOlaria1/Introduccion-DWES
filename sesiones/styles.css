@@ -6,12 +6,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh; /* Esto centra verticalmente en la pantalla */
+    height: 100vh;
 }
 
 form {
     max-width: 400px;
-    margin: 20px auto;
+    margin: 20px;
     background-color: #fff;
     padding: 20px;
     border-radius: 5px;
@@ -41,5 +41,5 @@ a {
 
 p {
     text-align: center;
-    margin-top: 20px; /* Añadido para dar espacio entre el formulario y el párrafo */
+    margin-top: 20px;
 }
